@@ -3,6 +3,7 @@ pub mod my_mod1;
 mod my_path;
 
 pub use crate::my_mod1::mod_in_file::my_func1;
+pub use crate::my_path::{my_mod_sub, mod_sub1, mod_sub2,get_file1};
 
 // lib.rs 也可以有函数
 pub fn my_func2() {
