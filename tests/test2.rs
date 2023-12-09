@@ -9,3 +9,14 @@ fn test2() {
     rs_lib::mod_sub2::func3();
     rs_lib::get_file1();
 }
+
+use rs_lib::c_script::{double_input, third_input};
+
+#[test]
+fn test3() {
+    let input = 4;
+    let output = unsafe { double_input(input) };
+    let output2: i32 = unsafe { third_input(input) };
+    println!("{} * 3 = {}", input, output2);
+    println!("{} * 2 = {}", input, output);
+}
