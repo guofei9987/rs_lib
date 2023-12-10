@@ -1,6 +1,6 @@
 [package]
 name = "rs_lib"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Guo Fei <me@guofei.site>"]
 description = "一段简单的描述信息，要好好写."
