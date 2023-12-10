@@ -1,0 +1,1 @@
+int my_func(int x, int y);

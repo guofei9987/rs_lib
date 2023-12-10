@@ -20,3 +20,10 @@ fn test3() {
     println!("{} * 3 = {}", input, output2);
     println!("{} * 2 = {}", input, output);
 }
+
+// use rs_lib::c_lib::my_func;
+// #[test]
+// fn test4(){
+//    let a=unsafe{my_func(3,5)} ;
+//     println!("{}",a);
+// }

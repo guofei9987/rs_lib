@@ -18,3 +18,4 @@ cc = "1.0"
 [lib]
 name = "rs_lib"
 path = "src/lib.rs"
+#crate-type = ["cdylib"]
