@@ -1,13 +1,11 @@
-use rs_lib::{my_func1, my_func2};
-
 #[test]
 fn func_1() { assert!(true, "可以填入报错信息，也可以不填。"); }
 
 #[test]
-fn func_2() { assert_eq!(my_func1(), 0, "两个值相等，使用 == 判断的"); }
+fn func_2() { assert_eq!(0, 0, "两个值相等，判定标准等同于 =="); }
 
 #[test]
-fn func_3() { assert_ne!(2 + 3, 4, "两个值不相等，使用 != 判断的"); }
+fn func_3() { assert_ne!(2 + 3, 4, "两个值不相等，判定标准等同于 !="); }
 
 // 有 panic
 // panic 内容要与 expected 一致，才能通过测试

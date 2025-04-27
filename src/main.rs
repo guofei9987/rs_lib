@@ -1,6 +1,6 @@
-use rs_lib::{my_func1, my_func2};
+use rs_lib::{my_func1, fn_in_lib};
 
-fn main(){
+fn main() {
     my_func1();
-    my_func2();
+    fn_in_lib();
 }
